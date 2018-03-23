@@ -1,0 +1,14 @@
+server:
+  port: 3002
+
+spring:
+  data:
+    cassandra:
+      keyspace_name: void
+      contact_points: 127.0.0.1
+      port: 9042
+      schema_action: CREATE_IF_NOT_EXISTS
+      username: admin
+      password: cassandra
+  jersey:
+#    application-path: /realtor-service
